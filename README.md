@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jczas/npm-package-poc.svg?branch=master)](https://travis-ci.org/jczas/npm-package-poc)
+![Build Status](https://travis-ci.org/jczas/npm-package-poc.svg?branch=master)](https://travis-ci.org/jczas/npm-package-poc)
 
 MS SQL Server connection string parser
 =========

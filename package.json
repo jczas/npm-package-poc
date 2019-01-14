@@ -1,0 +1,36 @@
+{
+  "name": "mssql-connection-string",
+  "version": "0.3.0",
+  "description": "Module to parse MS SQL Server connection string",
+  "main": "src/mssql-connection-string.js",
+  "types": "types/mssql-connection-string.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "coverage": "node node_modules/.bin/istanbul cover _mocha -x src/grammar.peg.js -- --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jczas/npm-package-poc.git"
+  },
+  "keywords": [
+    "mssql",
+    "knex",
+    "bookshelf",
+    "connection",
+    "string",
+    "javascript"
+  ],
+  "author": "(https://github.com/jczas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jczas/npm-package-poc/issues"
+  },
+  "homepage": "https://github.com/jczas/npm-package-poc#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
